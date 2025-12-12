@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Simple Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --beige: #f8f5f2;
+            --light-brown: #e9e3da;
+            --accent: #bfa980;
+            --text: #4e4637;
+            --header: #ede6d6;
+            --footer: #e0d6c3;
+            --link: #a68a64;
+            --link-hover: #8c7350;
+        }
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: var(--beige);
+            color: var(--text);
+        }
+        header {
+            background: var(--header);
+            color: var(--text);
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(191, 169, 128, 0.07);
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: var(--link);
+            text-decoration: none;
+            margin: 0 1.2rem;
+            font-weight: 700;
+            font-size: 1.05rem;
+            border-radius: 4px;
+            padding: 0.3rem 0.7rem;
+            transition: background 0.2s, color 0.2s;
+        }
+        nav a:hover {
+            background: var(--accent);
+            color: #fff;
+        }
+        main {
+            max-width: 800px;
+            margin: 2.5rem auto;
+            background: var(--light-brown);
+            border-radius: 14px;
+            box-shadow: 0 4px 16px rgba(191, 169, 128, 0.10);
+            padding: 2.5rem 2rem;
+        }
+        h1, h2 {
+            margin-top: 0;
+            font-weight: 700;
+        }
+        h1 {
+            font-size: 2.3rem;
+            letter-spacing: 1px;
+        }
+        h2 {
+            color: var(--accent);
+            font-size: 1.3rem;
+            margin-bottom: 0.7rem;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.2rem 0;
+            background: var(--footer);
+            color: var(--text);
+            margin-top: 2.5rem;
+            font-size: 1rem;
+            border-top: 1px solid #e9e3da;
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 1.2rem 0.7rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>gandalfonspeed</h1>
+        <!--
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        -->
+    </header>
+    <main>
+        <h2>About me</h2>
+        <p>19 yo developer from germany</p>
+        <h2>Current projects</h2>
+        <ul>
+            <li>Ark Manager: a software with scripts and other perks for the game Ark: Sruvival Evolved</li>
+            <li>Autocraft/Fastcraft: a simple Autocraft script for Ark: Sruvival Evolved made with Autohotkey</li>
+            <li>ArkMBypass: A memory reader for Ark: Sruvival Evolved using network packets</li>
+
+        </ul>
+    </main>
+    <footer>
+        &copy; 2025 gandalfonspeed. All rights reserved.
+    </footer>
+</body>
+</html>
